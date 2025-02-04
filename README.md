@@ -1,73 +1,36 @@
-Task Management App
-This is a task management application built with Next.js and Tailwind CSS. You can use it to add, update, and manage your tasks.
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-Getting Started
-1. Clone the Repository
-First, clone the repository to your local machine:
+## Getting Started
 
-bash
-Copy
-Edit
-git clone https://github.com/viswanathan01/task-management-app.git
-2. Install Dependencies
-Navigate to the project folder and install the required dependencies:
+First, run the development server:
 
-bash
-Copy
-Edit
-cd task-management-app
-npm install
-3. Run the Development Server
-Once the dependencies are installed, you can run the development server:
-
-bash
-Copy
-Edit
+```bash
 npm run dev
-Alternatively, you can use other package managers like Yarn, PNPM, or Bun, if you prefer:
-
-bash
-Copy
-Edit
+# or
 yarn dev
 # or
 pnpm dev
 # or
 bun dev
-4. Open the App in Your Browser
-After running the development server, open your browser and go to:
+```
 
-arduino
-Copy
-Edit
-http://localhost:3000
-You should see the task management app running locally on your machine!
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Project Structure
-The main components of the app are located in the following folders:
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-pages/: Contains the app’s pages.
-components/: Contains reusable components like task items and forms.
-styles/: Contains the CSS styles for the app (tailwind-based).
-public/: Static assets like images and icons.
-How to Contribute
-If you'd like to contribute to this project, follow these steps:
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-Fork the repository.
-Create a new branch.
-Make your changes.
-Open a pull request to submit your changes.
-Deploying the App
-To deploy this Next.js app, the easiest way is to use the Vercel platform. Here’s how:
+## Learn More
 
-Go to the Vercel website: Vercel
-Sign up or log in to your Vercel account.
-Click on "New Project" and import this GitHub repository.
-Vercel will automatically configure and deploy your app.
-Once deployed, you’ll get a live URL for your app.
-Learn More
-To learn more about Next.js, visit the following resources:
+To learn more about Next.js, take a look at the following resources:
 
-Next.js Documentation
-Learn Next.js
-You can also explore the Next.js GitHub repository.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
