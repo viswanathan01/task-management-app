@@ -73,4 +73,5 @@ The easiest way to deploy this app is to use Vercel, the official Next.js deploy
 
 Final ScreenShot:
 
-![Screenshot 2025-02-05 103908](https://github.com/user-attachments/assets/9b35de67-fddf-4281-bffd-f27854f0da62)
+![Screenshot 2025-02-05 104259](https://github.com/user-attachments/assets/000669dd-1cfc-4bf8-84e0-8f8cf2980335)
+
