@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+📌 Task Management App
+This is a Task Management App built with Next.js, TypeScript, Tailwind CSS, and MongoDB. It allows users to add, mark, and delete tasks in a responsive web interface.
 
-## Getting Started
+🚀 Features
+✅ Add Tasks – Users can create tasks with ease.
+✅ Mark as Complete – Click to mark tasks as done.
+✅ Delete Tasks – Remove tasks when done.
+✅ Responsive UI – Works on all devices.
 
-First, run the development server:
+🔧 Installation & Setup
+1️⃣ Clone the Repository
+Open your terminal and run:
 
-```bash
+bash
+Copy
+Edit
+git clone https://github.com/viswanathan01/task-management-app.git
+cd task-management-app
+2️⃣ Install Dependencies
+Run the following command to install all required dependencies:
+
+bash
+Copy
+Edit
+npm install
+3️⃣ Set Up the Environment Variables
+This project requires a MongoDB connection.
+
+Option 1: Use the default database (if given access by the owner)
+Option 2: Use your own MongoDB (Recommended for new users)
+📌 If using your own database:
+
+Create a free MongoDB Atlas account → Sign up here
+Create a new database cluster
+Get your MongoDB connection string
+In the project folder, create a .env.local file and add:
+bash
+Copy
+Edit
+MONGODB_URI=your-mongodb-connection-string
+4️⃣ Run the Development Server
+Start the app with:
+
+bash
+Copy
+Edit
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Now, open http://localhost:3000 in your browser to see the app live.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+⚠️ Troubleshooting: Can't Add Tasks?
+❌ Problem: "I can’t add tasks after cloning the project."
+✅ Reason: You are trying to use the owner's database, which does not allow public access.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🔹 Solution
+📌 You have 2 options:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1️⃣ Ask the owner to whitelist your IP in MongoDB Atlas. (Easier but less flexible)
+2️⃣ Use your own MongoDB database by following step 3️⃣ Set Up the Environment Variables (Recommended for privacy & full control).
 
-## Learn More
+🌍 Deployment on Vercel
+The easiest way to deploy this app is to use Vercel, the official Next.js deployment platform.
 
-To learn more about Next.js, take a look at the following resources:
+1️⃣ Push your code to GitHub
+2️⃣ Sign in to Vercel
+3️⃣ Import your GitHub repository
+4️⃣ Set your MONGODB_URI in Vercel Environment Variables
+5️⃣ Deploy and get your live app URL 🎉
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+💡 Tech Stack
+🔹 Frontend: Next.js (React), TypeScript, Tailwind CSS
+🔹 Backend: Next.js API Routes, MongoDB
+🔹 Database: MongoDB Atlas
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
